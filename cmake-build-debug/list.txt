@@ -1,0 +1,3 @@
+1 McMaffin 4 2000000
+2 Jonhson.A 12 405102521
+3 Abramovich 6 120000000
