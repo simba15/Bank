@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alexander/CLionProjects/firstProject/dataOfClient.cpp" "/home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/dataOfClient.cpp.o"
-  "/home/alexander/CLionProjects/firstProject/main.cpp" "/home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/firstProject.dir/main.cpp.o"
+  "/home/alexander/github/Bank/app/dataOfClient.cpp" "/home/alexander/github/Bank/cmake-build-debug/CMakeFiles/Bank.dir/app/dataOfClient.cpp.o"
+  "/home/alexander/github/Bank/app/main.cpp" "/home/alexander/github/Bank/cmake-build-debug/CMakeFiles/Bank.dir/app/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../app"
   )
 
 # Targets to which this target links.

@@ -48,10 +48,10 @@ RM = /home/alexander/clion/clion-2018.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alexander/CLionProjects/firstProject
+CMAKE_SOURCE_DIR = /home/alexander/github/Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alexander/CLionProjects/firstProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alexander/github/Bank/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles /home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/github/Bank/cmake-build-debug/CMakeFiles /home/alexander/github/Bank/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/github/Bank/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named firstProject
+# Target rules for targets named Bank
 
 # Build rule for target.
-firstProject: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 firstProject
-.PHONY : firstProject
+Bank: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Bank
+.PHONY : Bank
 
 # fast build rule for target.
-firstProject/fast:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/build
-.PHONY : firstProject/fast
+Bank/fast:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/build
+.PHONY : Bank/fast
 
-dataOfClient.o: dataOfClient.cpp.o
+app/dataOfClient.o: app/dataOfClient.cpp.o
 
-.PHONY : dataOfClient.o
-
-# target to build an object file
-dataOfClient.cpp.o:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/dataOfClient.cpp.o
-.PHONY : dataOfClient.cpp.o
-
-dataOfClient.i: dataOfClient.cpp.i
-
-.PHONY : dataOfClient.i
-
-# target to preprocess a source file
-dataOfClient.cpp.i:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/dataOfClient.cpp.i
-.PHONY : dataOfClient.cpp.i
-
-dataOfClient.s: dataOfClient.cpp.s
-
-.PHONY : dataOfClient.s
-
-# target to generate assembly for a file
-dataOfClient.cpp.s:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/dataOfClient.cpp.s
-.PHONY : dataOfClient.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : app/dataOfClient.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/main.cpp.o
-.PHONY : main.cpp.o
+app/dataOfClient.cpp.o:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/app/dataOfClient.cpp.o
+.PHONY : app/dataOfClient.cpp.o
 
-main.i: main.cpp.i
+app/dataOfClient.i: app/dataOfClient.cpp.i
 
-.PHONY : main.i
+.PHONY : app/dataOfClient.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/main.cpp.i
-.PHONY : main.cpp.i
+app/dataOfClient.cpp.i:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/app/dataOfClient.cpp.i
+.PHONY : app/dataOfClient.cpp.i
 
-main.s: main.cpp.s
+app/dataOfClient.s: app/dataOfClient.cpp.s
 
-.PHONY : main.s
+.PHONY : app/dataOfClient.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/main.cpp.s
-.PHONY : main.cpp.s
+app/dataOfClient.cpp.s:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/app/dataOfClient.cpp.s
+.PHONY : app/dataOfClient.cpp.s
+
+app/main.o: app/main.cpp.o
+
+.PHONY : app/main.o
+
+# target to build an object file
+app/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/app/main.cpp.o
+.PHONY : app/main.cpp.o
+
+app/main.i: app/main.cpp.i
+
+.PHONY : app/main.i
+
+# target to preprocess a source file
+app/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/app/main.cpp.i
+.PHONY : app/main.cpp.i
+
+app/main.s: app/main.cpp.s
+
+.PHONY : app/main.s
+
+# target to generate assembly for a file
+app/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/app/main.cpp.s
+.PHONY : app/main.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... firstProject"
-	@echo "... dataOfClient.o"
-	@echo "... dataOfClient.i"
-	@echo "... dataOfClient.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Bank"
+	@echo "... app/dataOfClient.o"
+	@echo "... app/dataOfClient.i"
+	@echo "... app/dataOfClient.s"
+	@echo "... app/main.o"
+	@echo "... app/main.i"
+	@echo "... app/main.s"
 .PHONY : help
 
 

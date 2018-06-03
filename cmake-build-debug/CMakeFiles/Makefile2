@@ -54,45 +54,45 @@ RM = /home/alexander/clion/clion-2018.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alexander/CLionProjects/firstProject
+CMAKE_SOURCE_DIR = /home/alexander/github/Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alexander/CLionProjects/firstProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alexander/github/Bank/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/firstProject.dir
+# Target rules for target CMakeFiles/Bank.dir
 
 # All Build rule for target.
-CMakeFiles/firstProject.dir/all:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/depend
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target firstProject"
-.PHONY : CMakeFiles/firstProject.dir/all
+CMakeFiles/Bank.dir/all:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/depend
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexander/github/Bank/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Bank"
+.PHONY : CMakeFiles/Bank.dir/all
 
 # Include target in all.
-all: CMakeFiles/firstProject.dir/all
+all: CMakeFiles/Bank.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/firstProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/firstProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/CLionProjects/firstProject/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/firstProject.dir/rule
+CMakeFiles/Bank.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/github/Bank/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Bank.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/github/Bank/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Bank.dir/rule
 
 # Convenience name for target.
-firstProject: CMakeFiles/firstProject.dir/rule
+Bank: CMakeFiles/Bank.dir/rule
 
-.PHONY : firstProject
-
-# clean rule for target.
-CMakeFiles/firstProject.dir/clean:
-	$(MAKE) -f CMakeFiles/firstProject.dir/build.make CMakeFiles/firstProject.dir/clean
-.PHONY : CMakeFiles/firstProject.dir/clean
+.PHONY : Bank
 
 # clean rule for target.
-clean: CMakeFiles/firstProject.dir/clean
+CMakeFiles/Bank.dir/clean:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/clean
+.PHONY : CMakeFiles/Bank.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Bank.dir/clean
 
 .PHONY : clean
 

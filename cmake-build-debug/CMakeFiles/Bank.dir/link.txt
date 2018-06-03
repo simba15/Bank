@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Bank.dir/app/dataOfClient.cpp.o CMakeFiles/Bank.dir/app/main.cpp.o  -o Bank 
